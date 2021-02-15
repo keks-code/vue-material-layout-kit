@@ -1,0 +1,7 @@
+@forward './utils/reset';
+@forward './utils/a-container';
+@use '@material/theme';
+
+body {
+  background-color: theme.$background;
+}
