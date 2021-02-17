@@ -1,4 +1,31 @@
-# vue-material-layout-kit
+# :rocket: Vue Material Design Layout Kit
+
+**Popular layouts for Material Design web applications.**
+
+The idea here is to provide ready to use Vue templates with typical for [Material Design](https://material.io/) layouts and navigational components.
+
+## :heavy_check_mark: Key Features
+
+* Built using Google's [Material Design Components for web](https://material.io/develop/web) (or MDC-Web).
+* You don't have to use MDC-Web for the rest of your application. MDC-Web usually integrates with other CSS frameworks/components fluently because it doesn't define any global CSS styles. And because the library is very modular, only used components will be bundled.
+* MDC-Web defines 3 breakpoint ranges: [desktop, tablet and phone](https://material.io/develop/web/supporting/layout-grid). Each template is optimized for these three breakpoints.
+* Some templates adapt layout and navigation based on screen size. Specific combinations of behavior at each breakpoints is mostly inspired by [Material Studies examples](https://material.io/design/material-studies/about-our-material-studies.html). For example:
+  * Navigation hidden by smaller screens gets revealed when additional spaces becomes available.
+  * Navigational components can transform from one format to another at a designated breakpoint: side navigation can transform into tabs on a larger screen.
+* Theming is available via [MDC-Web's theming system](https://material.io/develop/web/theming/theming-guide). Changing colors, fonts, shapes is as easy as setting SASS variables.
+
+
+## Getting Started
+
+
+
+
+## Something other
+
+**This is a collection of starter web templates with typical Material Design application layouts.**
+
+Some layouts may switch between different navigation components, depending on screen size. For example, permanent side drawer for desktop and modal drawer for narrower tablet/phone screens.
+
 
 ## Project setup
 ```
