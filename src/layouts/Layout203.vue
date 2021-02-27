@@ -37,25 +37,25 @@
       <aside class="mdc-drawer">
         <div class="mdc-drawer__content">
           <nav class="mdc-list">
-            <router-link class="mdc-list-item mdc-list-item--activated" to="/drawer-type3/" tabindex="0" aria-selected="true">
+            <router-link class="mdc-list-item mdc-list-item--activated" to="/layout203/" tabindex="0" aria-selected="true">
               <span class="mdc-list-item__ripple"></span>
-              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">inbox</i>
-              <span class="mdc-list-item__text">Inbox</span>
+              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">analytics</i>
+              <span class="mdc-list-item__text">Dashboard</span>
             </router-link>
-            <router-link class="mdc-list-item" to="/drawer-type3/test2" tabindex="-1">
+            <router-link class="mdc-list-item" to="/layout203/cardlist" tabindex="-1">
               <span class="mdc-list-item__ripple"></span>
-              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">star</i>
-              <span class="mdc-list-item__text">Star</span>
+              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">auto_stories</i>
+              <span class="mdc-list-item__text">Stories</span>
             </router-link>
             <a class="mdc-list-item" href="#" tabindex="-1">
               <span class="mdc-list-item__ripple"></span>
               <i class="material-icons mdc-list-item__graphic" aria-hidden="true">send</i>
-              <span class="mdc-list-item__text">Sent Mail</span>
+              <span class="mdc-list-item__text">Mail</span>
             </a>
             <a class="mdc-list-item" href="#" tabindex="-1">
               <span class="mdc-list-item__ripple"></span>
-              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">drafts</i>
-              <span class="mdc-list-item__text">Drafts</span>
+              <i class="material-icons mdc-list-item__graphic" aria-hidden="true">note</i>
+              <span class="mdc-list-item__text">Notes</span>
             </a>
             <hr class="mdc-list-divider">
 
@@ -115,7 +115,7 @@ import { MDCDrawer } from '@material/drawer';
 import { MDCList } from '@material/list';
 
 export default Vue.extend({
-  name: "LayoutDrawerType3",
+  name: "Layout203",
   data() {
     return {
       topAppBar: undefined,

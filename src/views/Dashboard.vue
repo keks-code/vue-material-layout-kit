@@ -4,7 +4,7 @@ import { MDCRipple } from '@material/ripple';
 import { MDCLinearProgress } from '@material/linear-progress';
 
 export default Vue.extend({
-  name: 'TestContent2',
+  name: 'Dashboard',
   data() {
     return {
       accounts: [

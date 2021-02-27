@@ -4,6 +4,9 @@
 
 The idea here is to provide ready to use Vue templates with typical for [Material Design](https://material.io/) layouts and navigational components.
 
+[DEMO](http://vue-layouts.kekscs.com/)
+
+
 ## :heavy_check_mark: Key Features
 
 * Built using Google's [Material Design Components for web](https://material.io/develop/web) (or MDC-Web).
