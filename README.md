@@ -2,7 +2,7 @@
 
 **Popular layouts for Material Design web applications.**
 
-The idea here is to provide ready to use Vue templates with typical for [Material Design](https://material.io/) layout and navigational components.
+The idea here is to provide ready to use Vue templates with typical [Material Design](https://material.io/) layout and navigational components.
 
 [&gt;&gt;&gt; DEMO &lt;&lt;&lt;](http://vue-layouts.kekscs.com/)
 
@@ -24,35 +24,15 @@ The idea here is to provide ready to use Vue templates with typical for [Materia
 
 ## Getting Started
 
+Go to [Releases](https://github.com/kekscs/vue-material-layout-kit/releases) and download the latest release. Unpack it, rename the folder/app and use it as a starting point for your web app:
 
-
-
-## Something other
-
-**This is a collection of starter web templates with typical Material Design application layouts.**
-
-Some layouts may switch between different navigation components, depending on screen size. For example, permanent side drawer for desktop and modal drawer for narrower tablet/phone screens.
-
-
-## Project setup
-```
+``` bash
+# install dependencies
 yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+# serve with hot reload at localhost:8080
+yarn start
 
-### Compiles and minifies for production
-```
+# build for production with minification
 yarn build
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
