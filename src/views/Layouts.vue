@@ -19,13 +19,19 @@
           </p>
 
           <div class="layout-screenshot mdx-mb--3">
-            <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/101/layout101-iphone8.png">
+            <a href="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/101/layout101-iphone8.png" target="_blank">
+              <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/101/layout101-iphone8.png">
+            </a>
           </div>
           <div class="layout-screenshot mdx-mb--3">
-            <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/101/layout101-ipad.png" >
+            <a href="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/101/layout101-ipad.png" target="_blank">
+              <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/101/layout101-ipad.png" >
+            </a>
           </div>
           <div class="layout-screenshot mdx-mb--3">
-            <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/101/layout101-desktop.png">
+            <a href="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/101/layout101-desktop.png" target="_blank">
+              <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/101/layout101-desktop.png">
+            </a>
           </div>
 
           <p>
@@ -54,7 +60,9 @@
           </p>
           
           <div class="layout-screenshot mdx-mb--3">
-            <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-desktop.png">
+            <a href="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-desktop.png" target="_blank">
+              <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-desktop.png">
+            </a>
           </div>
 
           <p>
@@ -63,11 +71,15 @@
           </p>
 
           <div class="layout-screenshot mdx-mb--3">
-            <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-ipad-2.png">
+            <a href="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-ipad-2.png" target="_blank">
+              <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-ipad-2.png">
+            </a>
           </div>
 
           <div class="layout-screenshot mdx-mb--3">
-            <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-iphone8.png">
+            <a href="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-iphone8.png" target="_blank">
+              <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-iphone8.png">
+            </a>
           </div>
 
         </div>
@@ -98,7 +110,7 @@ $default-margin: map.get(layout-grid.$default-margin, phone);
   text-align: center;
 
   img {
-    max-height: 550px;
+    max-height: 500px;
     max-width: 100%;
   }
 }
