@@ -8,39 +8,70 @@
 
     <div class="mdc-card mdx-p--default mdx-m--default">
       <div class="mdc-card__content">
-        <h3 class="mdc-typography--headline4 mdx-mb--3"><router-link to="/layout101">Layout #101</router-link></h3>
-        <div class="rich-text">
-          <p>Простейший базовый layout на основе <a href="https://material.io/components/app-bars-top" target="_blank">Top App Bar</a>.
-          Поведение layout одинаково для всех типов устройств:</p>
-          <ol>
-            <li>Cверху показывается top app bar, который прячется при прокрутке вниз.</li>
-            <li>При прокрутке вверх, top app bar снова появляется, давая доступ к командам и навигации.</li>
-          </ol>
+        <h3 class="mdc-typography--headline4 mdx-mb--3">Layout #101</h3>
+        <div class="rich-text mdx-mb--5">
+          <p>
+            <router-link to="/layout101">*** DEMO ***</router-link>
+          </p>
+          <p>Very simple minimalistic layout, that uses only <a href="https://material.io/components/app-bars-top" target="_blank">Top App Bar</a> 
+          component for navigation. Scrolling upward hides the top app bar, scrolling downward reveals the top app bar, thus maximizing 
+          space available for content on smaller phone screens.
+          </p>
 
-          <div class="layout-screenshot mdx-mb--3 mdx-flex-fill-tmp">
+          <div class="layout-screenshot mdx-mb--3">
             <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/101/layout101-iphone8.png">
           </div>
-          <div class="layout-screenshot mdx-mb--3 mdx-flex-fill-tmp">
+          <div class="layout-screenshot mdx-mb--3">
             <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/101/layout101-ipad.png" >
           </div>
-          <div class="layout-screenshot mdx-mb--3 mdx-flex-fill-tmp">
+          <div class="layout-screenshot mdx-mb--3">
             <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/101/layout101-desktop.png">
           </div>
 
-          <p>Подходит для простых сайтов, где практически нет навигации или ее очень мало. Сама эта страница использует этот layout.
-             В данном случае в top app bar помещена только одна ссылка на GitHub repository.</p>
-
-          <p>Для редко используемых команд в top app bar можно добавить drop-down menu, открываемый по нажатию на vertical dots icon.
-            Так же сюда можно поместить search input.
+          <p>
+            This layout fits for simple websites with little navigation. 1-3 commands/links can be placed in the Top App bar 
+            in a form of <a href="https://github.com/material-components/material-components-web/tree/master/packages/mdc-icon-button">Icon Buttons</a>.
+            Placing more elements into Top App Bar might create problems on small phone screens. Some additional rarely used commands/links 
+            can be placed into drop-down menu, which gets opened by clicking on 3 vertical dots icon.
           </p>
+
         </div>
       </div>
     </div>
     
     <div class="mdc-card mdx-p--default mdx-m--default">
       <div class="mdc-card__content">
-        <h3 class="mdc-typography--headline3"><router-link to="/layout203">Layout #203</router-link></h3>
-        <p></p>
+        <h3 class="mdc-typography--headline4 mdx-mb--3">Layout #203</h3>
+        <div class="rich-text mdx-mb--5">
+          <p>
+            <router-link to="/layout203">*** DEMO ***</router-link>
+          </p>
+          <p>
+            Universal layout for web apps. It adapts to screen size. <strong>On desktop</strong> it uses two 
+            navigational components: permanent Top App Bar and <a href="https://material.io/components/navigation-drawer#standard-drawer">permanent Drawer</a>.
+            Permanent means that the component is permanently visible, only content gets scrolled. Thus on bigger desktop screens 
+            all the navigation and commands are always available.
+          </p>
+          
+          <div class="layout-screenshot mdx-mb--3">
+            <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-desktop.png">
+          </div>
+
+          <p>
+            <strong>On table and phone</strong>, where screen space is limited, permanent drawer transforms 
+            into <a href="https://material.io/components/navigation-drawer#modal-drawer">modal Drawer</a>.
+          </p>
+
+          <div class="layout-screenshot mdx-mb--3">
+            <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-ipad-2.png">
+          </div>
+
+          <div class="layout-screenshot mdx-mb--3">
+            <img src="https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-iphone8.png">
+          </div>
+
+        </div>
+
       </div>
     </div>
   </div>
@@ -67,7 +98,7 @@ $default-margin: map.get(layout-grid.$default-margin, phone);
   text-align: center;
 
   img {
-    max-height: 400px;
+    max-height: 550px;
     max-width: 100%;
   }
 }
