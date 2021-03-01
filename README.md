@@ -4,8 +4,10 @@
 
 The idea here is to provide ready to use Vue templates with typical for [Material Design](https://material.io/) layouts and navigational components.
 
-[DEMO](http://vue-layouts.kekscs.com/)
+[&gt;&gt;&gt; DEMO &lt;&lt;&lt;](http://vue-layouts.kekscs.com/)
 
+![Layout #203 (iPhone 8)](https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-iphone8.png "Layout #203 (iPhone 8)")
+![Layout #203 (desktop)](https://kekscs.blob.core.windows.net/dev/vue-material-layout-kit/layout-screens/203/layout203-desktop.png "Layout #203 (deskop)")
 
 ## :heavy_check_mark: Key Features
 
