@@ -55,7 +55,7 @@
           <p>
             Universal layout for web apps. It adapts to screen size. <strong>On desktop</strong> it uses two 
             navigational components: permanent Top App Bar and <a href="https://material.io/components/navigation-drawer#standard-drawer">permanent Drawer</a>.
-            Permanent means that the component is permanently visible, only content gets scrolled. Thus on bigger desktop screens 
+            Permanent means that the components are permanently visible, only content gets scrolled. Thus on bigger desktop screens 
             all the navigation and commands are always available.
           </p>
           
@@ -67,7 +67,8 @@
 
           <p>
             <strong>On table and phone</strong>, where screen space is limited, permanent drawer transforms 
-            into <a href="https://material.io/components/navigation-drawer#modal-drawer">modal Drawer</a>.
+            into <a href="https://material.io/components/navigation-drawer#modal-drawer">modal Drawer</a>. Modal navigation drawer
+             gets opened above an app's content by clicking a navigation menu icon in a top app bar.
           </p>
 
           <div class="layout-screenshot mdx-mb--3">
