@@ -1,0 +1,11 @@
+@use 'sass:map';
+@use '@material/layout-grid';
+@use '@material/top-app-bar';
+
+@mixin title--first {
+  @each $size in map.keys(layout-grid.$columns) {
+    @include layout-grid.media-query_($size) {
+      padding-left: map.get(layout-grid.$default-margin, $size) - if($size == phone,  top-app-bar.$mobile-section-padding, top-app-bar.$section-horizontal-padding);
+    }
+  }
+}
