@@ -22,9 +22,11 @@ The idea here is to provide ready to use Vue templates with typical [Material De
 * Theming is available via [MDC-Web's theming system](https://material.io/develop/web/theming/theming-guide). Changing colors, fonts, shapes is as easy as setting SASS variables.
 
 
-## Getting Started
+## Usage
 
-Go to [Releases](https://github.com/kekscs/vue-material-layout-kit/releases) and download the latest release. Unpack it, rename the folder/app and use it as a starting point for your web app:
+### Use **vue-material-layout-kit** as a starter template
+
+Go to [Releases](https://github.com/kekscs/vue-material-layout-kit/releases), download the latest version and unpack it. Rename the folder, change package name. Use it as a starting point for your new web app:
 
 ``` bash
 # install dependencies
@@ -35,4 +37,32 @@ yarn start
 
 # build for production with minification
 yarn build
+```
+
+### Copy layout code to your existing Vue app
+
+TODO:
+1. Где-то описать как организованы layout. К route добавляется `meta: { layout: Layout101 }`. Где это обрабатывается и по какой статье это сделано?
+2. Надо включать SCSS нужных компонентов. У каждого layout свой список. Надо где-то этот список предоставлять.
+
+
+Prerequisites:
+1. Add "material-components-web" to dependencies.
+2. Make sure necessary SCSS included.
+
+Steps:
+1. Clone the repo, or download the latest version from [Releases](https://github.com/kekscs/vue-material-layout-kit/releases).
+2. Copy necessary layout file (.vue) to your app. Layouts can be found in [/src/layouts](https://github.com/kekscs/vue-material-layout-kit/tree/master/src/layouts) folder.
+3. Import layout into your router/index.ts file:
+```ts
+import Layout101 from '../layouts/Layout101.vue'
+```
+4. Configure layout for a route like this:
+```ts
+  {
+    path: '/',
+    name: 'Home',
+    component: HomeComponent,
+    meta: { layout: Layout101 }
+  }
 ```
