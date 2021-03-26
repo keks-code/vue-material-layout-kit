@@ -39,7 +39,7 @@ yarn start
 yarn build
 ```
 
-### Copy layout code to your existing Vue app
+### Copy layout code to an existing Vue app
 
 TODO:
 1. Где-то описать как организованы layout. К route добавляется `meta: { layout: Layout101 }`. Где это обрабатывается и по какой статье это сделано?
@@ -47,8 +47,25 @@ TODO:
 
 
 Prerequisites:
-1. Add "material-components-web" to dependencies.
-2. Make sure necessary SCSS included.
+1. **Sass/SCSS (with [dart-sass](https://github.com/sass/dart-sass)).** _node-sass_ will not work since it doesn't support the latest SCSS features. Vue project with _dart-sass_ can be easily created via [vue-cli](https://cli.vuejs.org/).
+
+
+<!-- 1. Add "material-components-web" to dependencies.
+2. Make sure necessary SCSS included. -->
+
+Adding _Material Design Components for Web_:
+1. Run `yarn add material-components-web` or `npm install material-components-web`. The package includes all MDC components/APIs. Don't worry,
+only necessary parts will be bundled into your application.
+2. Somewhere in your application create file - _\_material-components-web.scss_. Usually it goes to folder _/src/vendor/mdc_.
+3. Copy code from this file - https://github.com/material-components/material-components-web/blob/master/packages/material-components-web/material-components-web.scss. This is root SCSS file which includes all the MDC components.
+4. Now comment all the lines in the file. Leave only components needed for a selected layout. Each layout requires only some subset of MDC components. See layout description for a list of required components.
+5. Add the following line to your root SCSS file, or to a separate vendor root SCSS file if you have it:
+
+   `@forward 'src/vendor/mdc/material-components-web';`.
+
+   Note: the line should go before any `@include` command.
+6. What about Roboto font and Material icons? These components are optional, only if used.
+
 
 Steps:
 1. Clone the repo, or download the latest version from [Releases](https://github.com/kekscs/vue-material-layout-kit/releases).

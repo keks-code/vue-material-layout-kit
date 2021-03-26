@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="mdc-top-app-bar mdc-top-app-bar--fixed my-top-app-bar">
+    <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
       <div class="mdc-top-app-bar__row">
         <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
           <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button" aria-label="Open navigation menu">menu</button>
@@ -214,13 +214,6 @@ export default Vue.extend({
 @use '@material/theme';
 @use '@material/layout-grid';
 @use '../styles/mdc-extensions/mdcext-top-app-bar';
-
-// .my-top-app-bar {
-//   .mdc-top-app-bar__title {
-//     color: theme.$on-primary;
-//   }
-// }
-
 
 .mdc-top-app-bar__title {
   color: theme.$on-primary;
