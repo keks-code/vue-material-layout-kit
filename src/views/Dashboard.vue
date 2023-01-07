@@ -77,7 +77,7 @@ export default Vue.extend({
 </script>
 
 <template>
-  <div class="a-c--1280 dashboard-container">
+  <div class="a-c--1280">
 
     <div class="mdc-layout-grid">
       <div class="mdc-layout-grid__inner">

@@ -1,4 +1,4 @@
-# :rocket: Vue Material Design Layout Kit
+# :rocket: Material Design Layout Kit for Vue
 
 **Popular layouts for Material Design web applications.**
 
